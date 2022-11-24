@@ -1,0 +1,175 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    height: 15vh;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+.list-item {
+    display: flex;
+    margin: 20px;
+    font-family: orbitron;
+    font-size: 20px;
+
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* div>img {
+    width: 120px;
+} */
+
+.button-group {
+    display: flex;
+}
+
+.nav-button {
+    padding: 5px 35px;
+    background-color: transparent;
+    border: 2px #000 solid;
+    border-radius: 12px;
+    margin-left: 10px;
+    color: #808080;
+    font-size: 20px;
+}
+
+.search-icon {
+    margin-right: 15px;
+    height: 20px;
+}
+
+
+
+.hero-container>div>img {
+    position: absolute;
+    height: 450px;
+    left: 5%;
+    bottom: 14%;
+    z-index: 1;
+}
+
+.square {
+    position: absolute;
+    bottom: 29%;
+    left: 7%;
+    height: 240px;
+
+}
+
+
+.hero-container-right {
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    top: 35%;
+}
+
+.hero-heading {
+    font-size: 55px;
+    font-family: orbitron;
+    font-weight: 600;
+}
+
+.hero-description {
+    font-family: poppins;
+    font-size: 13px;
+    margin: 5% 15%;
+    color: #808080;
+}
+
+.button-email {
+    padding: 4px 10px;
+    font-family: orbitron;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 4%;
+}
+
+.button-join {
+    padding: 4px 10px;
+    font-family: orbitron;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.contact-heading {
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 50px;
+    color: #808080;
+    font-size: 20px;
+    position: absolute;
+    left: 43%;
+    top: 120%;
+}
+
+.icons {
+    position: absolute;
+    top: 150%;
+    left: 38%;
+}
+
+.icons>span>img {
+    margin: 5px;
+    width: 33px;
+}
+
+.star {
+    position: absolute;
+    top: 22%;
+    right: 8%;
+}
+
+.star>img {
+    width: 60px;
+}
+
+.globe {
+    position: absolute;
+    top: 16%;
+    left: 55%;
+}
+
+.globe>img {
+    width: 60px;
+}
+
+.starTwo {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+}
+
+.starTwo>img {
+    width: 45px;
+}
